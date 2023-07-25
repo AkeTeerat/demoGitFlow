@@ -3,11 +3,15 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
+import { AuthenComponent } from './authen/authen.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent
+    AuthenComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule
